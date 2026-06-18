@@ -2,7 +2,6 @@
 
 A full-stack e-commerce web application with user authentication, built using **React** (frontend) and **Node.js/Express** (backend) with **MongoDB** as the database.
 
----
 
 ## 📁 Project Structure
 
@@ -58,7 +57,7 @@ A-PROJECT/
 | Auth       | JWT / bcrypt                      |
 | Styling    | CSS (App.css, index.css)          |
 |------------------------------------------------|
----
+
 
 ## ⚙️ Getting Started
 
@@ -153,7 +152,7 @@ const UserSchema = new mongoose.Schema({
 | `PORT`       | Port for the Express server        |
 | `MONGO_URI`  | MongoDB connection string          |
 | `JWT_SECRET` | Secret key for signing JWT tokens  |
-----------------------------------------------------|
+|---------------------------------------------------|
 
 
 ## 🚀 Future Improvements
@@ -161,8 +160,8 @@ const UserSchema = new mongoose.Schema({
 - [ ] Payment System
 - [ ] Product Management system
 - [ ] adding user shopping list data
-
----
+- [ ] Order managment system
+      
 
 ## 📄 License
 
