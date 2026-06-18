@@ -32,7 +32,7 @@ A-PROJECT/
     │   └── index.css
     ├── index.html
     └── package.json
-├── assets/       # Images and video
+├── assets      # Images and video
 ```
 
 ---
