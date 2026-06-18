@@ -73,8 +73,8 @@ A-PROJECT/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/a-project.git
-cd a-project
+
+
 ```
 
 ---
