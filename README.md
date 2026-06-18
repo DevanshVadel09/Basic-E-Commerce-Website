@@ -67,17 +67,17 @@ A-PROJECT/
 - [Node.js](https://nodejs.org/) v18+
 - [MongoDB](https://www.mongodb.com/) (local or Atlas URI)
 - npm or yarn
+- React
+  
 
 ---
 
 ### 1. Clone the Repository
 
 ```bash
-
+https://github.com/DevanshVadel09/Basic-E-Commerce-Website.git
 
 ```
-
----
 
 ### 2. Backend Setup
 
@@ -100,9 +100,8 @@ Start the backend server:
 node server.js
 ```
 
-The API will run at `http://localhost:5000`.
+The API will run at `http://localhost:5001`.
 
----
 
 ### 3. Frontend Setup
 
@@ -125,7 +124,7 @@ The React app will run at `http://localhost:5173`.
 | POST   | `/api/auth/login`   | Login and receive token  |
 | GET    | `/api/user/profile` | Get logged-in user info  |
 |---------------------------------------------------------|
----
+
 
 ## 🗃️ MongoDB User Schema (Example)
 
