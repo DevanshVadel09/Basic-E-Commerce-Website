@@ -48,7 +48,7 @@ A-PROJECT/
 ---
 
 ## 🛠️ Tech Stack
-|------------------------------------------------|
+
 | Layer      | Technology                        |
 |------------|-----------------------------------|
 | Frontend   | React (Vite), React Router, Axios |
@@ -56,7 +56,7 @@ A-PROJECT/
 | Database   | MongoDB, Mongoose                 |
 | Auth       | JWT / bcrypt                      |
 | Styling    | CSS (App.css, index.css)          |
-|------------------------------------------------|
+
 ---
 
 ## ⚙️ Getting Started
@@ -116,13 +116,13 @@ The React app will run at `http://localhost:5173`.
 
 ## 🔌 API Endpoints
 
-|---------------------------------------------------------|
+
 | Method | Endpoint            | Description              |
 |--------|---------------------|--------------------------|
 | POST   | `/api/auth/signup`  | Register a new user      |
 | POST   | `/api/auth/login`   | Login and receive token  |
 | GET    | `/api/user/profile` | Get logged-in user info  |
-|---------------------------------------------------------|
+
 ---
 
 ## 🗃️ MongoDB User Schema (Example)
@@ -146,13 +146,13 @@ const UserSchema = new mongoose.Schema({
 
 ## 📌 Environment Variables
 
-|---------------------------------------------------|
+
 | Variable     | Description                        |
 |--------------|------------------------------------|
 | `PORT`       | Port for the Express server        |
 | `MONGO_URI`  | MongoDB connection string          |
 | `JWT_SECRET` | Secret key for signing JWT tokens  |
-|---------------------------------------------------|
+
 ---
 
 ## 🚀 Future Improvements
