@@ -22,8 +22,7 @@ A-PROJECT/
 └── FrontEnd/project/
     ├── public/           # Static assets
     ├── src/
-    │   ├── api/          # Axios/fetch API call functions
-    │   ├── assets/       # Images and static files
+    │   ├── api/          # Axios/fetch API call functions  
     │   ├── Pages/
     │   │   ├── Dashboard.jsx   # Main dashboard (post-login)
     │   │   ├── Login.jsx       # Login page
@@ -34,6 +33,7 @@ A-PROJECT/
     │   └── index.css
     ├── index.html
     └── package.json
+├── assets/       # Images and video
 ```
 
 ---
@@ -49,7 +49,7 @@ A-PROJECT/
 ---
 
 ## 🛠️ Tech Stack
-
+|------------------------------------------------|
 | Layer      | Technology                        |
 |------------|-----------------------------------|
 | Frontend   | React (Vite), React Router, Axios |
@@ -57,7 +57,7 @@ A-PROJECT/
 | Database   | MongoDB, Mongoose                 |
 | Auth       | JWT / bcrypt                      |
 | Styling    | CSS (App.css, index.css)          |
-
+|------------------------------------------------|
 ---
 
 ## ⚙️ Getting Started
@@ -118,12 +118,13 @@ The React app will run at `http://localhost:5173`.
 
 ## 🔌 API Endpoints
 
+|---------------------------------------------------------|
 | Method | Endpoint            | Description              |
 |--------|---------------------|--------------------------|
 | POST   | `/api/auth/signup`  | Register a new user      |
 | POST   | `/api/auth/login`   | Login and receive token  |
 | GET    | `/api/user/profile` | Get logged-in user info  |
-
+|---------------------------------------------------------|
 ---
 
 ## 🗃️ MongoDB User Schema (Example)
@@ -136,7 +137,6 @@ const UserSchema = new mongoose.Schema({
 }, { timestamps: true });
 ```
 
----
 
 ## 🔐 Authentication Flow
 
@@ -145,27 +145,23 @@ const UserSchema = new mongoose.Schema({
 3. JWT stored in `localStorage` on the frontend
 4. Protected routes check for valid JWT before rendering **Dashboard**
 
----
 
 ## 📌 Environment Variables
 
+|---------------------------------------------------|
 | Variable     | Description                        |
 |--------------|------------------------------------|
 | `PORT`       | Port for the Express server        |
 | `MONGO_URI`  | MongoDB connection string          |
 | `JWT_SECRET` | Secret key for signing JWT tokens  |
+----------------------------------------------------|
 
-> ⚠️ Never commit your `.env` file. It is listed in `.gitignore`.
-
----
 
 ## 🚀 Future Improvements
 
-- [ ] Product listing and search
-- [ ] Shopping cart functionality
-- [ ] Order management system
-- [ ] Admin panel
-- [ ] Payment gateway integration
+- [ ] Payment System
+- [ ] Product Management system
+- [ ] adding user shopping list data
 
 ---
 
