@@ -57,7 +57,7 @@ A-PROJECT/
 | Auth       | JWT / bcrypt                      |
 | Styling    | CSS (App.css, index.css)          |
 |------------------------------------------------|
-
+---
 
 ## ⚙️ Getting Started
 
@@ -123,7 +123,7 @@ The React app will run at `http://localhost:5173`.
 | POST   | `/api/auth/login`   | Login and receive token  |
 | GET    | `/api/user/profile` | Get logged-in user info  |
 |---------------------------------------------------------|
-
+---
 
 ## 🗃️ MongoDB User Schema (Example)
 
@@ -153,7 +153,7 @@ const UserSchema = new mongoose.Schema({
 | `MONGO_URI`  | MongoDB connection string          |
 | `JWT_SECRET` | Secret key for signing JWT tokens  |
 |---------------------------------------------------|
-
+---
 
 ## 🚀 Future Improvements
 
